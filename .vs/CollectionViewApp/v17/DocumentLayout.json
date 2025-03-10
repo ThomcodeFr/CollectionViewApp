@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\perso\\Documents\\Projets\\CCI\\CollectionViewApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{702FFC10-02B2-4D41-85D0-69BA81C8991C}|CollectionViewApp.csproj|c:\\users\\perso\\documents\\projets\\cci\\collectionviewapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{702FFC10-02B2-4D41-85D0-69BA81C8991C}|CollectionViewApp.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702FFC10-02B2-4D41-85D0-69BA81C8991C}|CollectionViewApp.csproj|c:\\users\\perso\\documents\\projets\\cci\\collectionviewapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{702FFC10-02B2-4D41-85D0-69BA81C8991C}|CollectionViewApp.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702FFC10-02B2-4D41-85D0-69BA81C8991C}|CollectionViewApp.csproj|c:\\users\\perso\\documents\\projets\\cci\\collectionviewapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702FFC10-02B2-4D41-85D0-69BA81C8991C}|CollectionViewApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\perso\\Documents\\Projets\\CCI\\CollectionViewApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\perso\\Documents\\Projets\\CCI\\CollectionViewApp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-10T18:09:41.3Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\perso\\Documents\\Projets\\CCI\\CollectionViewApp\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\perso\\Documents\\Projets\\CCI\\CollectionViewApp\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-10T19:10:16.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\perso\\Documents\\Projets\\CCI\\CollectionViewApp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\perso\\Documents\\Projets\\CCI\\CollectionViewApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-10T19:02:32.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
