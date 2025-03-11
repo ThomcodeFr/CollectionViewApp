@@ -1,5 +1,4 @@
 ﻿using System.Collections.ObjectModel;
-using Microsoft.Maui.Graphics;
 
 namespace CollectionViewApp
 {
@@ -28,7 +27,35 @@ namespace CollectionViewApp
             ColorCollectionView.ItemsSource = Colors;
         }
 
-       
+        /// <summary>
+        /// Logique pour ajouter une nouvelle couleur.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public async void AddNewColor(object sender, EventArgs e)
+        {
+            string name = await DisplayPromptAsync("New Color", "Enter the name");
+            string red = await DisplayPromptAsync("New Color", "Enter the red value");
+            string green = await DisplayPromptAsync("New Color", "Enter the green value");
+            string blue = await DisplayPromptAsync("New Color", "Enter the blue value");
+
+            if (int.TryParse(red, out int r) && int.TryParse(green, out int g) && int.TryParse(blue, out int b))
+            {
+                var newColor = new ColorItem
+                {
+                    Name = name,
+                    Color = Color.FromRgb(r, g, b)
+                };
+
+                Colors.Add(newColor);
+            }
+            else
+            {
+                await DisplayAlert("Invalid Input", "Please enter a valid RGB Valid.", "Ok");
+            }
+        }
+
+
         /// <summary>
         /// Logique quand la couleur est selectionnée.
         /// </summary>
@@ -37,6 +64,7 @@ namespace CollectionViewApp
         private async void OnColorSelected(object sender, SelectionChangedEventArgs e)
         {
             var selectedItem = (sender as CollectionView)?.SelectedItem as ColorItem;
+
             if (selectedItem != null)
             {
                 await DisplayAlert("Color Details", $"RGB: {selectedItem.Color.Red}, {selectedItem.Color.Green}, {selectedItem.Color.Blue}", "OK");

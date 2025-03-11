@@ -18,11 +18,20 @@
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="25">
+                <Button  
+                   Text="Add Color"
+                   BackgroundColor="Black"
+                   Clicked="AddNewColor"
+               />
+            </HorizontalStackLayout>
+
             <Label
                 Text="Choose your color"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Choose your color"/>
+
 
             <CollectionView x:Name="ColorCollectionView"
                             SelectionMode="Single"
